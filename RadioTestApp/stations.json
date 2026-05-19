@@ -1,22 +1,275 @@
 {
   "Rock": [
-    { "id": "pink-floyd", "name": "Pink Floyd", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/c51ff47c-9925-4cb8-bc1d-24bceaa7047a.jpg", "stream": "https://streaming.exclusive.radio/er/pinkfloyd/icecast.audio" },
-    { "id": "rush", "name": "Rush", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/f3ceb9c3-1a4c-4996-910c-f9a92deee0f9.jpg", "stream": "http://streaming.exclusive.radio/er/rush/icecast.audio" },
-    { "id": "dire-straits", "name": "Dire Straits", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/6fbeb789-537d-46b5-8862-83d4e948b520.jpg", "stream": "https://streaming.exclusive.radio/er/direstraits/icecast.audio" },
-    { "id": "metallica", "name": "Metallica", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/1e0ce121-8e14-4e5f-a259-b3d80babbdf2.jpg", "stream": "https://nl4.mystreaming.net/er/metallica/icecast.audio" },
-    { "id": "iron-maiden", "name": "Iron Maiden", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/a1f58d1b-8bdc-4c05-9c2e-20399d7ce1a7.jpg", "stream": "https://nl4.mystreaming.net/er/ironmaiden/icecast.audio" },
-    { "id": "joe-satriani", "name": "Joe Satriani", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/326f8310-2648-4451-892c-6786b943a58e.jpg", "stream": "http://streaming.exclusive.radio/er/joesatriani/icecast.audio" },
-    { "id": "daftpunk", "name": "Daft Punk", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/a7b2c869-4670-42de-bda0-6d60505da2e0.jpg", "stream": "http://streaming.exclusive.radio/er/daftpunk/icecast.audio" },
-    { "id": "queen", "name": "Queen", "logo": "https://www.allradio.net/500/hLQjDlPetw4Y9hCahP64H.webp", "stream": "https://streaming.exclusive.radio/er/queen/icecast.audio" },
-    { "id": "acdc", "name": "AC/DC", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/283e57fc-2293-4340-bd64-fb361998b24c.jpg", "stream": "https://nl4.mystreaming.net/er/acdc/icecast.audio" },
-    { "id": "disco-funk", "name": "70s 80s Disco Funk ModernSoul Boogie", "logo": "https://www.allradio.net/500/DsGU6wY4R9GLDeOmgI_n1.webp", "stream": "https://discofunk.streamingmedia.it/usa" },
-    { "id": "blackmores-night", "name": "Blackmore's Night (Prog Rock)", "logo": "", "stream": "https://theproganrockmachine.out.airtime.pro/theproganrockmachine_b" },
-    { "id": "dream-theater", "name": "Dream Theater (Prog Rock Radio)", "logo": "", "stream": "https://s2.ssl-stream.com/radio/8180/radio.mp3" },
-    { "id": "DrGnu-Prog-Rock-Classics", "name": "DrGnu - Prog Rock Classics", "logo": "", "stream": "https://regiocast.streamabc.net/regc-radiobobprogrock1964104-mp3-192-1423777?sABC=6n0o76s2%230%230o260nsp6s35863r1pn953p019863r78%23zrqvncynlre&aw_0_1st.playerid=mediaplayer&amsparams=playerid:mediaplayer;skey:1779136242" }
+    {
+      "id": "pink-floyd",
+      "name": "Pink Floyd",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/c51ff47c-9925-4cb8-bc1d-24bceaa7047a.jpg",
+      "stream": "https://streaming.exclusive.radio/er/pinkfloyd/icecast.audio"
+    },
+    {
+      "id": "rush",
+      "name": "Rush",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/f3ceb9c3-1a4c-4996-910c-f9a92deee0f9.jpg",
+      "stream": "http://streaming.exclusive.radio/er/rush/icecast.audio"
+    },
+    {
+      "id": "dire-straits",
+      "name": "Dire Straits",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/6fbeb789-537d-46b5-8862-83d4e948b520.jpg",
+      "stream": "https://streaming.exclusive.radio/er/direstraits/icecast.audio"
+    },
+    {
+      "id": "metallica",
+      "name": "Metallica",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/1e0ce121-8e14-4e5f-a259-b3d80babbdf2.jpg",
+      "stream": "https://nl4.mystreaming.net/er/metallica/icecast.audio"
+    },
+    {
+      "id": "iron-maiden",
+      "name": "Iron Maiden",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/a1f58d1b-8bdc-4c05-9c2e-20399d7ce1a7.jpg",
+      "stream": "https://nl4.mystreaming.net/er/ironmaiden/icecast.audio"
+    },
+    {
+      "id": "joe-satriani",
+      "name": "Joe Satriani",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/326f8310-2648-4451-892c-6786b943a58e.jpg",
+      "stream": "http://streaming.exclusive.radio/er/joesatriani/icecast.audio"
+    },
+    {
+      "id": "daftpunk",
+      "name": "Daft Punk",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/a7b2c869-4670-42de-bda0-6d60505da2e0.jpg",
+      "stream": "http://streaming.exclusive.radio/er/daftpunk/icecast.audio"
+    },
+    {
+      "id": "queen",
+      "name": "Queen",
+      "logo": "https://www.allradio.net/500/hLQjDlPetw4Y9hCahP64H.webp",
+      "stream": "https://streaming.exclusive.radio/er/queen/icecast.audio"
+    },
+    {
+      "id": "acdc",
+      "name": "AC/DC",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/283e57fc-2293-4340-bd64-fb361998b24c.jpg",
+      "stream": "https://nl4.mystreaming.net/er/acdc/icecast.audio"
+    },
+    {
+      "id": "disco-funk",
+      "name": "70s 80s Disco Funk ModernSoul Boogie",
+      "logo": "https://www.allradio.net/500/DsGU6wY4R9GLDeOmgI_n1.jpg",
+      "stream": "https://discofunk.streamingmedia.it/usa"
+    },
+    {
+      "id": "funkcoctail",
+      "name": "Funk Coctail",
+      "logo": "https://media.radiospinner.com/media/logos/180/103030/logo_9J84Br44Kn.jpg",
+      "stream": "https://mc-funkcoctail.hostingradio.ru/funkcoctail96.aacp"
+    },
+    {
+      "id": "bigfm",
+      "name": "Big FM",
+      "logo": "https://media.radiospinner.com/media/logos/180/1004488/logo_YJScj7PYTk.jpg",
+      "stream": "https://streams.bigfm.de/bigfm-nitroxedm-128-aac"
+    },
+    {
+      "id": "90smixradio",
+      "name": "90s Mix Radio",
+      "logo": "https://media.radiospinner.com/media/logos/180/28944/logo_mWr4KPpBlk.jpg",
+      "stream": "https://schlagermusik.stream.laut.fm/schlagermusik"
+    },
+    {
+      "id": "90s90stechno",
+      "name": "90s 90s Techno",
+      "logo": "https://media.radiospinner.com/media/logos/180/28822/logo_CPgvtr3IuD.jpg",
+      "stream": "https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420"
+    },
+    {
+      "id": "neurofunkrecord",
+      "name": "Neurofunk Record",
+      "logo": "https://media.radiospinner.com/media/logos/180/53907/logo_B7hyyw4N9I.jpg",
+      "stream": "https://radiorecord.hostingradio.ru/neurofunk96.aacp"
+    },
+    {
+      "id": "blackmores-night",
+      "name": "Blackmore's Night (Prog Rock)",
+      "logo": "",
+      "stream": "https://theproganrockmachine.out.airtime.pro/theproganrockmachine_b"
+    },
+    {
+      "id": "dream-theater",
+      "name": "Dream Theater (Prog Rock Radio)",
+      "logo": "",
+      "stream": "https://s2.ssl-stream.com/radio/8180/radio.mp3"
+    },
+    {
+      "id": "DrGnu-Prog-Rock-Classics",
+      "name": "DrGnu - Prog Rock Classics",
+      "logo": "",
+      "stream": "https://regiocast.streamabc.net/regc-radiobobprogrock1964104-mp3-192-1423777?sABC=6n0o76s2%230%230o260nsp6s35863r1pn953p019863r78%23zrqvncynlre&aw_0_1st.playerid=mediaplayer&amsparams=playerid:mediaplayer;skey:1779136242"
+    }
   ],
   "Classic": [
-    { "id": "chopin", "name": "Chopin", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/7b055924-5708-49e3-b445-1e7a9b3db7ec.png", "stream": "https://0nlineradio.stream13.radiohost.de/piano-chopin?ref=radiobrowser&upd-meta&upd-scheme=https&_art=dD0xNzc5MTg1NTM1JmQ9OTJmYjgxNWRmMTk0OWUyYzQyNzc" },
-    { "id": "mozart", "name": "Mozart", "logo": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/68/07/2b68072c-1c54-2194-4184-96fb231ba4a5/cover.jpg/500x500bb.jpg", "stream": "https://streams.calmradio.com:7328/stream" },
-    { "id": "klassik1", "name": "KLASSIK1", "logo": "", "stream": "https://icepool.silvacast.com/KLASSIK1.mp3" }
+    {
+      "id": "chopin",
+      "name": "Chopin",
+      "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/7b055924-5708-49e3-b445-1e7a9b3db7ec.png",
+      "stream": "https://0nlineradio.stream13.radiohost.de/piano-chopin?ref=radiobrowser&upd-meta&upd-scheme=https&_art=dD0xNzc5MTg1NTM1JmQ9OTJmYjgxNWRmMTk0OWUyYzQyNzc"
+    },
+    {
+      "id": "mozart",
+      "name": "Mozart",
+      "logo": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/68/07/2b68072c-1c54-2194-4184-96fb231ba4a5/cover.jpg/500x500bb.jpg",
+      "stream": "https://klassikr.streamabc.net/klassikr-puremozart-aac-128-2659149"
+    },
+    {
+      "id": "klassik1",
+      "name": "KLASSIK1",
+      "logo": "",
+      "stream": "https://icepool.silvacast.com/KLASSIK1.mp3"
+    },
+    {
+      "id": "bach",
+      "name": "Bach",
+      "logo": "https://media.radiospinner.com/media/logos/180/1005300/logo_Gfh1SaR59F.jpg",
+      "stream": "https://klassikr.streamabc.net/klr-purebach-aacplus-64-7413950"
+    },
+    {
+      "id": "beethoven",
+      "name": "Beethoven",
+      "logo": "https://media.radiospinner.com/media/logos/180/38779/logo_VBa5Dxs8rk.jpg",
+      "stream": "https://klassikr.streamabc.net/klr-purebeethoven-aacplus-64-4841198"
+    }
+  ],
+  "Egypt": [
+    {
+      "id": "megafm",
+      "name": "Mega FM",
+      "logo": "https://media.radiospinner.com/media/logos/180/79491/logo_XaKf0hp0uo.png",
+      "stream": "https://megafm927.radioca.st/stream?type=http&amp;nocache=76"
+    },
+    {
+      "id": "retroparty",
+      "name": "Retro Party",
+      "logo": "https://media.radiospinner.com/media/logos/180/102773/logo_myMhAeGMAv.png",
+      "stream": "https://tower.hayva.ru/jhoh0-96"
+    },
+    {
+      "id": "organichouse",
+      "name": "Organic House",
+      "logo": "https://media.radiospinner.com/media/logos/180/102813/logo_Jw7YtxBWss.jpg",
+      "stream": "https://tower.hayva.ru/i251j-96"
+    },
+    {
+      "id": "nrjegypt",
+      "name": "NRJ Egypt",
+      "logo": "https://media.radiospinner.com/media/logos/180/79525/logo_Atxn63HapP.png",
+      "stream": "https://nrjstreaming.ahmed-melege.com/nrjegypt"
+    },
+    {
+      "id": "naghamfm",
+      "name": "Nagham FM",
+      "logo": "https://media.radiospinner.com/media/logos/180/79495/logo_LpfV5PqnjO.png",
+      "stream": "https://ahmsamir.radioca.st/stream"
+    },
+    {
+      "id": "onsportfm",
+      "name": "ONsport FM",
+      "logo": "https://media.radiospinner.com/media/logos/180/79528/logo_X4yWfhYjH0.png",
+      "stream": "https://carina.streamerr.co:2020/stream/OnSportFM"
+    },
+    {
+      "id": "90sfm",
+      "name": "90s FM",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/w6C8abXm33.png",
+      "stream": "https://eu1.fastcast4u.com/proxy/prontofm?mp=/1"
+    },
+    {
+      "id": "sha3byfm",
+      "name": "Sha3by FM",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/315/95-fm.2c5ff952.png",
+      "stream": "https://radio95.radioca.st/;"
+    },
+    {
+      "id": "elradio9090",
+      "name": "El-Radio 9090",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/ddvJvW8kCA.png",
+      "stream": "https://9090streaming.mobtada.com/9090FMEGYPT"
+    },
+    {
+      "id": "ummkolthoum",
+      "name": "Umm Kolthoum",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/794/rdyw-m-klthwm.c33dca10.png",
+      "stream": "https://stream.zeno.fm/zsgrfxg71s8uv"
+    },
+    {
+      "id": "amrdiabfm",
+      "name": "Amr Diab FM",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/918/amr-diab-fm.389548bd.jpg",
+      "stream": "https://stream.zeno.fm/xa4yhh4k838uv"
+    },
+    {
+      "id": "daysooldfm",
+      "name": "Days Old FM",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/ftshahyqhjur.png",
+      "stream": "https://stream.zeno.fm/xda10sbtsg0uv"
+    },
+    {
+      "id": "mixfm",
+      "name": "Mix FM",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/tLdEqmUxZH.png",
+      "stream": "https://s1.voscast.com:11377/live.mp3"
+    },
+    {
+      "id": "alarabylive",
+      "name": "Al Araby live",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/211/al-araby.dbe87b3c.png",
+      "stream": "https://l3.itworkscdn.net/alarabyradiolive/alarabyradio_audio/icecast.audio"
+    },
+    {
+      "id": "aljazeeraarabic",
+      "name": "Al Jazeera Arabic",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/737/al-jazeera-arabic-qn-ljzyr.d41340d1.png",
+      "stream": "https://live-hls-audio-web-aja.getaj.net/VOICE-AJA/01.m3u8"
+    }
+
+  ],
+  "Quran": [
+    {
+      "id": "cairoquranlive",
+      "name": "Cairo Quran live",
+      "logo": "https://media.radiospinner.com/media/logos/180/79520/logo_dDY98P7gcb.png",
+      "stream": "https://stream.zeno.fm/ru2hqnplhk7uv"
+    },
+    {
+      "id": "quranradio",
+      "name": "Quran Radio",
+      "logo": "https://media.radiospinner.com/media/logos/180/83843/logo_WeEmGleryo.png",
+      "stream": "https://quran-radio.org:8440/;?type=http&nocache=29"
+    },
+    {
+      "id": "ayat",
+      "name": "Ayat",
+      "logo": "https://media.radiospinner.com/media/logos/180/80695/logo_lNOlx2e2xy.png",
+      "stream": "https://stream.zeno.fm/1fatuk10fkhvv"
+    },
+    {
+      "id": "radiozitouna",
+      "name": "Radio Zitouna",
+      "logo": "https://media.radiospinner.com/media/logos/180/79547/logo_qI3rzmlmWb.png",
+      "stream": "https://stream.radiozitouna.tn/radio/8030/radio.mp3"
+    },
+    {
+      "id": "hayatfm",
+      "name": "Hayat FM",
+      "logo": "https://media.radiospinner.com/media/logos/180/80157/logo_84wVlQJQhB.png",
+      "stream": "https://dc1.serverse.com/proxy/kjxwtpdt/stream"
+    },
+    {
+      "id": "radiosunna",
+      "name": "Radio Sunna",
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/fusju6jxwccw.jpg",
+      "stream": "http://andromeda.shoutca.st:8189/stream"
+    }
   ]
 }

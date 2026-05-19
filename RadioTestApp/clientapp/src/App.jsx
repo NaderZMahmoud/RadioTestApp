@@ -19,6 +19,7 @@ export default function App() {
     <>
       <nav>
         <NavLink to="/egypt">🇪🇬 Egyptian</NavLink>
+        <NavLink to="/quran">📖 Quran</NavLink>
         <NavLink to="/rock">🎸 Rock</NavLink>
         <NavLink to="/classic">🎻 Classic</NavLink>
       </nav>
@@ -32,6 +33,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/egypt" replace />} />
           <Route path="/egypt" element={<StationGrid title="Egyptian Radio" apiUrl="/api/stations/egypt" activeId={nowPlaying?.id} onPlay={play} />} />
+          <Route path="/quran" element={<StationGrid title="Quran Radio" apiUrl="/api/stations/quran" activeId={nowPlaying?.id} onPlay={play} />} />
           <Route path="/rock" element={<StationGrid title="Rock Radio" apiUrl="/api/stations/rock" activeId={nowPlaying?.id} onPlay={play} />} />
           <Route path="/classic" element={<StationGrid title="Classic Radio" apiUrl="/api/stations/classic" activeId={nowPlaying?.id} onPlay={play} />} />
         </Routes>

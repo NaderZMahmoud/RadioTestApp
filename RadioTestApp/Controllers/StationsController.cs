@@ -13,11 +13,13 @@ public class StationsController(IHttpClientFactory httpClientFactory, IWebHostEn
     private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
 
     [HttpGet("egypt")]
-    public async Task<IActionResult> GetEgyptStations()
-    {
-        var stations = await GetStationsFromRadioSpinner("eg/");
-        return Ok(stations);
-    }
+    public async Task<IActionResult> GetEgyptStations() => Ok(LoadStationsFromFile("Egypt"));
+    //{
+    //    var stations = await GetStationsFromRadioSpinner("eg/");
+    //    return Ok(stations);
+    //}
+    [HttpGet("quran")]
+    public async Task<IActionResult> GetQuranStations() => Ok(LoadStationsFromFile("Quran"));
 
     [HttpGet("rock")]
     public IActionResult GetRockStations() => Ok(LoadStationsFromFile("Rock"));
