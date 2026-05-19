@@ -20,6 +20,7 @@ export default function App() {
       <nav>
         <NavLink to="/egypt">🇪🇬 Egyptian</NavLink>
         <NavLink to="/rock">🎸 Rock</NavLink>
+        <NavLink to="/classic">🎻 Classic</NavLink>
       </nav>
       <div className="content">
         <div className="player-bar">
@@ -30,8 +31,9 @@ export default function App() {
         </div>
         <Routes>
           <Route path="/" element={<Navigate to="/egypt" replace />} />
-          <Route path="/egypt" element={<StationGrid title="🇪🇬 Egyptian Radio" apiUrl="/api/stations/egypt" activeId={nowPlaying?.id} onPlay={play} />} />
-          <Route path="/rock" element={<StationGrid title="🎸 Rock Radio" apiUrl="/api/stations/rock" activeId={nowPlaying?.id} onPlay={play} />} />
+          <Route path="/egypt" element={<StationGrid title="Egyptian Radio" apiUrl="/api/stations/egypt" activeId={nowPlaying?.id} onPlay={play} />} />
+          <Route path="/rock" element={<StationGrid title="Rock Radio" apiUrl="/api/stations/rock" activeId={nowPlaying?.id} onPlay={play} />} />
+          <Route path="/classic" element={<StationGrid title="Classic Radio" apiUrl="/api/stations/classic" activeId={nowPlaying?.id} onPlay={play} />} />
         </Routes>
       </div>
     </>

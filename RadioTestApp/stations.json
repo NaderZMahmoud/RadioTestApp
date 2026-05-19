@@ -1,0 +1,22 @@
+{
+  "Rock": [
+    { "id": "pink-floyd", "name": "Pink Floyd", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/c51ff47c-9925-4cb8-bc1d-24bceaa7047a.jpg", "stream": "https://streaming.exclusive.radio/er/pinkfloyd/icecast.audio" },
+    { "id": "rush", "name": "Rush", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/f3ceb9c3-1a4c-4996-910c-f9a92deee0f9.jpg", "stream": "http://streaming.exclusive.radio/er/rush/icecast.audio" },
+    { "id": "dire-straits", "name": "Dire Straits", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/6fbeb789-537d-46b5-8862-83d4e948b520.jpg", "stream": "https://streaming.exclusive.radio/er/direstraits/icecast.audio" },
+    { "id": "metallica", "name": "Metallica", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/1e0ce121-8e14-4e5f-a259-b3d80babbdf2.jpg", "stream": "https://nl4.mystreaming.net/er/metallica/icecast.audio" },
+    { "id": "iron-maiden", "name": "Iron Maiden", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/a1f58d1b-8bdc-4c05-9c2e-20399d7ce1a7.jpg", "stream": "https://nl4.mystreaming.net/er/ironmaiden/icecast.audio" },
+    { "id": "joe-satriani", "name": "Joe Satriani", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/326f8310-2648-4451-892c-6786b943a58e.jpg", "stream": "http://streaming.exclusive.radio/er/joesatriani/icecast.audio" },
+    { "id": "daftpunk", "name": "Daft Punk", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=80/https://manager.uber.radio/static/uploads/station/a7b2c869-4670-42de-bda0-6d60505da2e0.jpg", "stream": "http://streaming.exclusive.radio/er/daftpunk/icecast.audio" },
+    { "id": "queen", "name": "Queen", "logo": "https://www.allradio.net/500/hLQjDlPetw4Y9hCahP64H.webp", "stream": "https://streaming.exclusive.radio/er/queen/icecast.audio" },
+    { "id": "acdc", "name": "AC/DC", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/283e57fc-2293-4340-bd64-fb361998b24c.jpg", "stream": "https://nl4.mystreaming.net/er/acdc/icecast.audio" },
+    { "id": "disco-funk", "name": "70s 80s Disco Funk ModernSoul Boogie", "logo": "https://www.allradio.net/500/DsGU6wY4R9GLDeOmgI_n1.webp", "stream": "https://discofunk.streamingmedia.it/usa" },
+    { "id": "blackmores-night", "name": "Blackmore's Night (Prog Rock)", "logo": "", "stream": "https://theproganrockmachine.out.airtime.pro/theproganrockmachine_b" },
+    { "id": "dream-theater", "name": "Dream Theater (Prog Rock Radio)", "logo": "", "stream": "https://s2.ssl-stream.com/radio/8180/radio.mp3" },
+    { "id": "DrGnu-Prog-Rock-Classics", "name": "DrGnu - Prog Rock Classics", "logo": "", "stream": "https://regiocast.streamabc.net/regc-radiobobprogrock1964104-mp3-192-1423777?sABC=6n0o76s2%230%230o260nsp6s35863r1pn953p019863r78%23zrqvncynlre&aw_0_1st.playerid=mediaplayer&amsparams=playerid:mediaplayer;skey:1779136242" }
+  ],
+  "Classic": [
+    { "id": "chopin", "name": "Chopin", "logo": "https://you.radio/cdn-cgi/image/width=300,quality=60/https://manager.uber.radio/static/uploads/station/7b055924-5708-49e3-b445-1e7a9b3db7ec.png", "stream": "https://0nlineradio.stream13.radiohost.de/piano-chopin?ref=radiobrowser&upd-meta&upd-scheme=https&_art=dD0xNzc5MTg1NTM1JmQ9OTJmYjgxNWRmMTk0OWUyYzQyNzc" },
+    { "id": "mozart", "name": "Mozart", "logo": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/68/07/2b68072c-1c54-2194-4184-96fb231ba4a5/cover.jpg/500x500bb.jpg", "stream": "https://streams.calmradio.com:7328/stream" },
+    { "id": "klassik1", "name": "KLASSIK1", "logo": "", "stream": "https://icepool.silvacast.com/KLASSIK1.mp3" }
+  ]
+}

@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Update="stations.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
