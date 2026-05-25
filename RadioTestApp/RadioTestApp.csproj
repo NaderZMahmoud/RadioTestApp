@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Update="stations.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="stations.json" CopyToOutputDirectory="Always" />
   </ItemGroup>
 
 </Project>
