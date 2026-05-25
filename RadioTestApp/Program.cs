@@ -1,10 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
-builder.Services.AddHttpClient("RadioSpinner", client =>
-{
-    client.BaseAddress = new Uri("https://radiospinner.com/");
-    client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0");
-});
+//builder.Services.AddHttpClient("RadioSpinner", client =>
+//{
+//    client.BaseAddress = new Uri("https://radiospinner.com/");
+//    client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0");
+//});
 
 var app = builder.Build();
 
