@@ -270,6 +270,12 @@
       "name": "Radio Sunna",
       "logo": "https://static2.mytuner.mobi/media/tvos_radios/fusju6jxwccw.jpg",
       "stream": "http://andromeda.shoutca.st:8189/stream"
+    },
+    {
+      "id": "sammaradio",
+      "name": "SAMAA Radio",
+      "logo": "https://zeno.fm/_ipx/_/https://images.zeno.fm/HTYC-G3twl6sj8VY_4CrC_zp9IO2LfKPSdI8vbLClQ8/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvNDEzNGJmODktMjRhYi00Y2QyLTlkYmItZTEwMTU0MjE0NzI3L2ltYWdlLz91PTE3MzE1MzAyOTIwMDA.webp",
+      "stream": "https://stream.zeno.fm/nezfuswpyjfuv"
     }
   ]
 }
